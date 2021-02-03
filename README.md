@@ -1,2 +1,2 @@
 # SomeGoroscopes(сайт)
-Это первая попытка сделать что-то адекватное
+This is the first attempt to make a website, it is written in C # on the Asp.Net Core framework
