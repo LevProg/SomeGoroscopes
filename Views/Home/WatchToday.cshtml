@@ -1,0 +1,23 @@
+﻿@{
+    ViewData["Title"] = "Просмотр предсказания";
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <style type="text/css">
+        <!--
+        .tab {
+            text-indent: 40px
+        }
+    </style>
+    <title>Гороскоп  </title>
+</head>
+    <body style="        background-image: url(https://krot.info/uploads/posts/2020-03/1584909197_4-p-svetlie-foni-s-kosmosom-14.jpg)">
+        <div>
+            <h1>Гороскоп на сегодня</h1>
+            <form method="post">
+                <h4 p class="tab"> @ViewBag.Prediction  </h4>
+            </form>
+        </div>
+    </body>
+</html>

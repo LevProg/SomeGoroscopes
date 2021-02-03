@@ -1,0 +1,35 @@
+﻿@model IEnumerable<SomeGoroscopes.Models.ZSign>
+@{
+    ViewData["Title"] = @ViewBag.ZSignN;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <style type="text/css">
+        <!--
+        .tab {
+            text-indent: 40px
+        }
+    </style>
+    <title> @ViewBag.ZSignN </title>
+</head>
+<body style="        background-image: url(https://krot.info/uploads/posts/2020-03/1584909197_4-p-svetlie-foni-s-kosmosom-14.jpg)">
+   
+                <div>
+                    <h3>@ViewBag.ZSignN</h3>
+                    <form method="post">
+                        <h4 p class="tab">@ViewBag.ZSign </h4>
+                        <br>
+                        <h3 p class="tab">Гороскоп на: </h3>
+                        <ul>
+                            <li><h5><a style="color:black" ; href="~/Home/WatchMonth/@ViewBag.id">Месяц</a></h5></li>
+                            <li><h5><a style="color:black" ; href="~/Home/WatchToday/@ViewBag.id">Сегодня</a></h5></li>
+                           
+                        </ul>
+                        
+                        
+                    </form>
+                </div>
+       
+</body>
+</html>
